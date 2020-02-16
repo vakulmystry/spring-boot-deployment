@@ -131,6 +131,14 @@
                 </executions>
             </plugin>
             <plugin>
+				<groupId>org.owasp</groupId>
+				<artifactId>dependency-check-maven</artifactId>
+				<version>5.2.2</version>
+				<configuration>
+					<format>ALL</format>
+				</configuration>
+			</plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>2.18</version>
